@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <title>Liberty University | Cafeteria</title>
+        <link rel="stylesheet" href="../css/stylesheetorder.css">
+        <script src="../java/javaorder.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo">LIBERTY ARTS UNIVERSITY</a>
+                <ul class="menu-links">
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="specials.html">SPECIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>0</span>
+                </div>
+            </nav>
+            <h2 class="heading">MENU</h2>
+            <h3 class="sub-heading">Meals</h3>
+        </header>
+        <script>
+            window.addEventListener('scroll', function() {
+                var header = document.querySelector('header');
+                if (window.scrollY > 0) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        </script>
+        <section class="menu food" id="food">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu1.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Onion Curry Goat</h3>
+                        <p>Tender goat meat cooked with onions in a flavorful curry sauce.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$14.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu2.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Jollof Rice</h3>
+                        <p>Smokey rice cooked in a flavourful tomato-based sauce. Fish and plantain optional</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$15.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu3.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Peppered Escargot</h3>
+                        <p>Escargot sautéed in a flavorful blend of spices and tomato.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$9.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu4.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Steak and Fries</h3>
+                        <p>Peppered steak served with a side of Truffle fires.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$25.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu8.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Spaghetti Bolognese</h3>
+                        <p>Spaghetti served with seasoned minced meat, offering vibrant flavors.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$11.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu9.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Chicken Oven Roast</h3>
+                        <p>Oven-roasted chicken, seasoned with aromatic herbs and spices.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$23.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu10.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Bouillabaisse</h3>
+                        <p>Flavourfull seafood stew made with shrimp and mussels.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$11.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/menu11.jpg" alt="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Small Chops</h3>
+                        <p>An assortment of puff puff, samosas, springrolls and chicken.</p>
+                        <button class="btn add-to-cart" data-section="food" type="button">Add To Cart</button>
+                        <span class="price">$11.99</span>
+                    </div>
+                </div>
+        </section>
+            <br>
+        <section class="menu drinks" id="drinks">
+            <div class="sub-heading-container">
+                <h4 class="sub-heading" style="margin-left: 600px; margin-top: 200px; margin-bottom: -100px;">Drinks</h4>
+            </div>
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/coke3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Coca Cola</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/pine.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Fanta</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/tea3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Iced Tea</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/sprite.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Sprite</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/lemon.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Minute Maid Lemonade</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/drp.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Dr Pepper</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/orange.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Minute Maid Orange Juice</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="images">
+                        <img src="../images/apple.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Minute Maid Apple Juice</h3>
+                        <button class="btn add-to-cart" data-section="drinks" type="button">Add To Cart</button>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+        </section>
+        <main>
+            <div class="sidebar" id="sidebar">
+                <button class="exit-sidebar-btn">Exit Sidebar</button>
+                <div class="cart-menu">
+                    <h3>My Cart</h3>
+                    <div class="cart-items"></div>
+                </div>
+                
+                <div class="sidebar--footer">
+                    <div class="total--amount">
+                        <h5>Total</h5>
+                        <div class="cart-total">$0.00</div>
+                    </div>
+                    <button class="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
